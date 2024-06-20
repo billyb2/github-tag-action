@@ -82,8 +82,8 @@ echo "pre_release = $pre_release"
 # fetch tags
 git fetch --tags
 
-tagFmt="^v?[0-9]+\.[0-9]+\.[0-9]+$"
-preTagFmt="^v?[0-9]+\.[0-9]+\.[0-9]+(-$suffix\.[0-9]+)$"
+tagFmt="v0\.[0-9]+\.[0-9]+$"
+preTagFmt="v0\.[0-9]+\.[0-9]+(-$suffix\.[0-9]+)$"
 
 # get the git refs
 git_refs=
